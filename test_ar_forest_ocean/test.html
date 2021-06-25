@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/gh/chenzlabs/aframe-ar@master/dist/aframe-ar.min.js"></script     -->
+<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script> 
+</head>
+
+<body>
+
+    <a-scene ar>
+        <a-assets>
+            
+            <a-asset-item id="glbModel1" src="branches.glb"></a-asset-item>
+            <a-asset-item id="glbModel2" src="carré.glb"></a-asset-item>
+            <a-asset-item id="glbModel3" src="graineair.glb"></a-asset-item>
+            <a-asset-item id="glbModel4" src="grainerouge.glb"></a-asset-item>
+            <a-asset-item id="glbModel5" src="grainesol.glb"></a-asset-item>
+            <a-asset-item id="glbModel6" src="pav.glb"></a-asset-item>
+            <a-asset-item id="glbModel7" src="pontgris.glb"></a-asset-item>
+            <a-asset-item id="glbModel8" src="sol.glb"></a-asset-item>
+            <a-asset-item id="glbModel9" src="solocean.glb"></a-asset-item>
+            <a-asset-item id="glbModel10" src="sun.glb"></a-asset-item>
+            
+
+
+        </a-assets>
+
+        
+        <a-entity   id ="1"
+        scale="1 1 1"
+        position="0 1.6 0"
+        rotation="0 0 0"
+
+        gltf-model="#glbModel1">
+        </a-entity>
+
+        <a-entity   id ="2"
+        scale="1 1 1"
+        position="0 1.6 0"
+        rotation="0 0 0"
+
+        gltf-model="#glbModel2">
+        </a-entity>
+
+        <a-entity   id ="3"
+        scale="1 1 1"
+        position="0 1.6 0"
+        rotation="0 0 0"
+
+        gltf-model="#glbModel3">
+        </a-entity>
+
+        <a-entity   id ="4"
+        scale="1 1 1"
+        position="0 1.6 0"
+        rotation="0 0 0"
+
+        gltf-model="#glbModel4">
+        </a-entity>
+
+        <a-entity   id ="5"
+        scale="1 1 1"
+        position="0 1.6 0"
+        rotation="0 0 0"
+
+        gltf-model="#glbModel5">
+        </a-entity>
+
+        <a-entity   id ="6"
+        scale="1 1 1"
+        position="0 1.6 0"
+        rotation="0 0 0"
+
+        gltf-model="#glbModel6">
+        </a-entity>
+
+        <a-entity   id ="7"
+        scale="1 1 1"
+        position="0 1.6 0"
+        rotation="0 0 0"
+
+        gltf-model="#glbModel7">
+        </a-entity>
+
+        <a-entity   id ="8"
+        scale="1 1 1"
+        position="0 1 0"
+        rotation="0 0 0"
+
+        gltf-model="#glbModel8">
+        </a-entity>
+
+        <a-entity   id ="9"
+        scale="1 1 1"
+        position="0 1 0"
+        rotation="0 0 0"
+
+        gltf-model="#glbModel9">
+        </a-entity>
+
+        <a-entity   id ="10"
+        scale="1 1 1"
+        position="0 1.6 0"
+        rotation="0 0 0"
+
+        gltf-model="#glbModel10">
+        </a-entity>
+
+
+
+
+        
+
+        <a-entity camera look-controls wasd-controls position="0 1.6 0"></a-entity>
+
+        
+
+        <a-sky color="black"></a-sky>
+
+      
+
+    </a-scene>
+</body>
+
+</html>
